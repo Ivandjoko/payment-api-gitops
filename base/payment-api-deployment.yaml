@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payment-api
-          image: payment-api:v1
+          image: payment-api:30cc5bc
           imagePullPolicy: Never
           ports:
             - containerPort: 5000
