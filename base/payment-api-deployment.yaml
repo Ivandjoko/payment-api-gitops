@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payment-api
-          image: payment-api:ef71348
+          image: payment-api:986a177
           imagePullPolicy: Never
           securityContext:
             allowPrivilegeEscalation: false
