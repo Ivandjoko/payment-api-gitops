@@ -16,6 +16,9 @@ spec:
         - name: payment-api
           image: payment-api:139eef7
           imagePullPolicy: Never
+          securityContext:
+            allowPrivilegeEscalation: false
+            runAsNonRoot: true
           ports:
             - containerPort: 5000
           resources:
